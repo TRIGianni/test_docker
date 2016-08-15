@@ -6,4 +6,6 @@ ADD package.json /usr/src/app/
 RUN npm install
 ADD . /usr/src/app
 
+EXPOSE 3000
+
 CMD [ "node", "server.js" ]
